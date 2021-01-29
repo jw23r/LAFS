@@ -20,4 +20,9 @@ private string _personNameTextField = string.Empty;
     [Tooltip("not being used")]
     private ScriptableObject _itemGameObject;
 
+
+    public enum whatTheyUpTo 
+    { Looking, Giving }
+
+    public whatTheyUpTo instanceOfEnum;
 }
