@@ -15,14 +15,19 @@ private string _personNameTextField = string.Empty;
     [SerializeField]
     private string _itemDescription = string.Empty;
     
-    public ScriptableObject ItemGameObject { get { return _itemGameObject; } }
+    public Item ItemGameObject { get { return _itemGameObject; } }
     [SerializeField]
     [Tooltip("not being used")]
-    private ScriptableObject _itemGameObject;
+    private Item _itemGameObject;
 
 
     public enum whatTheyUpTo 
     { Looking, Giving }
 
     public whatTheyUpTo instanceOfEnum;
+
+    public enum maleOrFemale
+    { Male, Female }
+
+    public whatTheyUpTo instanceOfMaleOrFemale;
 }
