@@ -9,12 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08dc1897c8def1d4ab3c4096ea94b860, type: 3}
-  m_Name: New Item
+  m_Script: {fileID: 11500000, guid: e9ada839556b08f4786ff80489433be2, type: 3}
+  m_Name: New Person 1
   m_EditorClassIdentifier: 
-  _itemNameTextField: 
-  _itemPointValue: 0
-  _itemIcon: {fileID: 0}
-  _itemGameObject: {fileID: 7378292813047172170, guid: bfdf08cc9d4d1f248ac7139711a07fe4,
-    type: 3}
-  instanceOfEnum: 1
+  _personNameTextField: 
+  _itemDescription: 
+  _itemGameObject: {fileID: 11400000, guid: 1c9585989a8ceab4c8c84faec21ed07f, type: 2}
+  instanceOfEnum: 0
+  instanceOfMaleOrFemale: 0

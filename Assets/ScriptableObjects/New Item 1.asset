@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 08dc1897c8def1d4ab3c4096ea94b860, type: 3}
-  m_Name: New Item
+  m_Name: New Item 1
   m_EditorClassIdentifier: 
   _itemNameTextField: 
   _itemPointValue: 0
   _itemIcon: {fileID: 0}
-  _itemGameObject: {fileID: 7378292813047172170, guid: bfdf08cc9d4d1f248ac7139711a07fe4,
+  _itemGameObject: {fileID: 8870821730760776981, guid: 9c424e88a5026fa46808f6499c47dd36,
     type: 3}
   instanceOfEnum: 1

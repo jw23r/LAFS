@@ -29,5 +29,5 @@ private string _personNameTextField = string.Empty;
     public enum maleOrFemale
     { Male, Female }
 
-    public whatTheyUpTo instanceOfMaleOrFemale;
+    public maleOrFemale instanceOfMaleOrFemale;
 }

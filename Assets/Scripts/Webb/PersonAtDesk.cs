@@ -15,7 +15,7 @@ public class PersonAtDesk : MonoBehaviour
     {
 
         personAtDesk = new List<Person>();
-        personAtDesk.Add(people[(Random.Range(0, people.Count - 1))]);
+        personAtDesk.Add(people[(Random.Range(0, people.Count))]);
         print(personAtDesk[0].ItemGameObject.ItemGameObject);
         Instantiate(personAtDesk[0].ItemGameObject.ItemGameObject, itemAtDesklocation.transform.position, itemAtDesklocation.transform.rotation);
     }
@@ -33,12 +33,20 @@ public class PersonAtDesk : MonoBehaviour
             {
                 print("you took the item");
                 currentPoints += personAtDesk[0].ItemGameObject.ItemPointValue;
+                personAtDesk.Clear();
+                personAtDesk.Add(people[(Random.Range(0, people.Count))]);
+
+
 
             }
             else
             {
                 print("bad item");
                 currentPoints -= personAtDesk[0].ItemGameObject.ItemPointValue;
+                personAtDesk.Clear();
+                personAtDesk.Add(people[(Random.Range(0, people.Count))]);
+
+
             }
         }
     }
@@ -50,12 +58,20 @@ public class PersonAtDesk : MonoBehaviour
             {
                 print("Crook is Arrtsted");
                 currentPoints += personAtDesk[0].ItemGameObject.ItemPointValue;
+                personAtDesk.Clear();
+                personAtDesk.Add(people[(Random.Range(0, people.Count))]);
+
+
 
             }
             else
             {
                 print("wasted police Time");
                 currentPoints -= personAtDesk[0].ItemGameObject.ItemPointValue;
+                personAtDesk.Clear();
+                personAtDesk.Add(people[(Random.Range(0, people.Count))]);
+
+
 
             }
         }
@@ -69,14 +85,28 @@ public class PersonAtDesk : MonoBehaviour
             {
                 print("Refused garbge");
                 currentPoints += personAtDesk[0].ItemGameObject.ItemPointValue;
+                personAtDesk.Clear();
+                personAtDesk.Add(people[(Random.Range(0, people.Count))]);
+
+
 
             }
             else
             {
                 print("Acctpted garbege");
                 currentPoints -= personAtDesk[0].ItemGameObject.ItemPointValue;
+                personAtDesk.Clear();
+                personAtDesk.Add(people[(Random.Range(0, people.Count))]);
+
+
 
             }
+        }
+        if (personAtDesk[0].instanceOfEnum.ToString() == "Looking")
+        {
+            personAtDesk.Clear();
+            personAtDesk.Add(people[(Random.Range(0, people.Count))]);
+
         }
     }
 }
