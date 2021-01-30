@@ -19,18 +19,24 @@ public class Item : ScriptableObject
     [SerializeField]
     private int _itemPointValue;
 
-    public Texture ItemIcon { get { return _itemIcon; } } // NOTE: We can protect this data field by only allowing public access to read it but not change it:
+    public Sprite ItemIcon { get { return _itemIcon; } } // NOTE: We can protect this data field by only allowing public access to read it but not change it:
+  
+    [Tooltip("sets items Icon")]
     [SerializeField]
-    private Texture _itemIcon;
+    private Sprite _itemIcon;
 
-    public GameObject ItemGameObject { get { return _itemGameObject; } }
+    public Mesh ItemGameObject { get { return _itemGameObject; } }
+    [Tooltip("mesh used to change item at desk")]
     [SerializeField]
-    [Tooltip("not being used")]
-    private GameObject _itemGameObject;
+    private Mesh _itemGameObject;
 
+    public Material ItemGameObjectMaterial { get { return _itemGameObjectMaterial; } }
+    [Tooltip("sets items material")]
+    [SerializeField]
+    private Material _itemGameObjectMaterial;
     public enum  investagionsOptions
     { CallPoilce, Accept, Refuse}
-
+    [Tooltip("sets the correct button to hit")]
     public investagionsOptions instanceOfEnum;
 
 

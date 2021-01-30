@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _itemNameTextField: 
   _itemPointValue: 0
-  _itemIcon: {fileID: 0}
-  _itemGameObject: {fileID: 7378292813047172170, guid: bfdf08cc9d4d1f248ac7139711a07fe4,
-    type: 3}
+  _itemIcon: {fileID: 21300000, guid: eacff065a920f454db9ee7b1fc4c0cf5, type: 3}
+  _itemGameObject: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  _itemGameObjectMaterial: {fileID: 2100000, guid: f3f718f2af1d0d54ba084cb2266701ce,
+    type: 2}
   instanceOfEnum: 1

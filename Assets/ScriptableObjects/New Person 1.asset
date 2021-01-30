@@ -15,5 +15,5 @@ MonoBehaviour:
   _personNameTextField: 
   _itemDescription: 
   _itemGameObject: {fileID: 11400000, guid: 1c9585989a8ceab4c8c84faec21ed07f, type: 2}
-  instanceOfEnum: 0
+  instanceOfEnum: 1
   instanceOfMaleOrFemale: 0
