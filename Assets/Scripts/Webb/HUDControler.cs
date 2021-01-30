@@ -15,6 +15,9 @@ public class HUDControler : MonoBehaviour
     public Sprite emptyInventory;
     public Text currenTextOnScreen;
     public Text previousTextOnScreen;
+    public Text score;
+    public Text timeOfDay;
+    int hourOfDay = 01; 
 
     void Start()
     {
@@ -24,7 +27,8 @@ public class HUDControler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ChangeInventoryIcon();  
+        ChangeInventoryIcon();
+        ChangeTime();
     }
     void ChangeInventoryIcon() 
     { 
@@ -87,5 +91,17 @@ public class HUDControler : MonoBehaviour
     {
         currenTextOnScreen.text = PersonAtDesk.currentText;
         previousTextOnScreen.text = PersonAtDesk.previousText;
+        score.text = PersonAtDesk.currentPoints.ToString();
+        timeOfDay.text = "0" + hourOfDay.ToString() + ":00";
+    }
+    void ChangeTime()
+    {
+        float x = 0;
+        x += Time.deltaTime;
+        if(x == 120)
+        {
+            hourOfDay += 1;
+            x = 0;
+        }
     }
 }

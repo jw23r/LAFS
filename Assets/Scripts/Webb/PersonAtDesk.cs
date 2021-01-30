@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PersonAtDesk : MonoBehaviour
 {
-    public float currentPoints = 100;
+    public static float currentPoints = 100;
    public List<Person> people;
     public GameObject itemAtDesklocation;
     public MeshFilter currentItem;
@@ -264,6 +264,28 @@ public class PersonAtDesk : MonoBehaviour
                 ChangePersonAtDesk();
 
                 inventory.RemoveAt(4);
+            }
+        }
+        else
+        {
+            currentPoints -= personAtDesk[0].ItemGameObject.ItemPointValue;
+            currentText = personAtDesk[0].BadRespone;
+            ChangePersonAtDesk();
+
+        }
+    }
+    public void GiveItem5()
+    {
+        if (personAtDesk[0].instanceOfEnum.ToString() == "Looking")
+        {
+            if (inventory[5] == personAtDesk[0].ItemGameObject)
+            {
+                currentText = personAtDesk[0].GoodRespone;
+                currentPoints += personAtDesk[0].ItemGameObject.ItemPointValue;
+
+                ChangePersonAtDesk();
+
+                inventory.RemoveAt(5);
             }
         }
         else
