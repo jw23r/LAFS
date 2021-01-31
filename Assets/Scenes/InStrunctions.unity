@@ -155,8 +155,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2, y: -19.1}
-  m_SizeDelta: {x: 302.86127, y: 68.19089}
+  m_AnchoredPosition: {x: 3.12, y: -5.4}
+  m_SizeDelta: {x: 300.6289, y: 95.58206}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &668407688
 MonoBehaviour:
@@ -190,7 +190,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: THankyou for showing up early today.  your shift will end at 9pm sharp.
+  m_Text: Thankyou for showing up early today.  Your shift will end at 9pm sharp.
+    Your job is to accept items that people bring in and return them to their owners.
+    If you see any suspicious activity then you can contact the cops
 --- !u!222 &668407689
 CanvasRenderer:
   m_ObjectHideFlags: 0
