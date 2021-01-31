@@ -18,9 +18,11 @@ public class HUDControler : MonoBehaviour
     public Text previousTextOnScreen;
     public Text score;
     public Text timeOfDay;
+    public Text timeOfDayInWorld;
     public GameObject male;
     public GameObject female;
     public HighScore highscore;
+    public Text allTimeScore;
     int hourOfDay = 1;
     float time = 0;
 
@@ -115,10 +117,12 @@ public class HUDControler : MonoBehaviour
     {
         currenTextOnScreen.text = PersonAtDesk.currentText;
         previousTextOnScreen.text = PersonAtDesk.previousText;
-        score.text = PersonAtDesk.currentPoints.ToString();
-        timeOfDay.text = "0" + hourOfDay.ToString() + ":00";
+        score.text = "Current SCore:" + PersonAtDesk.currentPoints.ToString();
+        timeOfDay.text = "Time Of Day:" + hourOfDay.ToString() + ":00";
+        timeOfDayInWorld.text =  hourOfDay.ToString() + ":00";
         if (highscore.highScore < PersonAtDesk.currentPoints) highscore.highScore = PersonAtDesk.currentPoints;
         highscore.currentScore = PersonAtDesk.currentPoints;
+        allTimeScore.text = "High SCore:" + highscore.highScore.ToString(); 
     }
     void ChangeTime()
     {
