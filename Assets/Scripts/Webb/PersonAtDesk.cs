@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PersonAtDesk : MonoBehaviour
 {
     public static int currentPoints = 100;
-   public List<Person> people;
+  public List<Person> people;
+  
     public GameObject itemAtDesklocation;
     public MeshFilter currentItem;
      public MeshRenderer currentItemMaterial;
@@ -33,8 +35,9 @@ public class PersonAtDesk : MonoBehaviour
               Accepte();
 
           }*/
-       
-      
+        if(people.Count <= 0) SceneManager.LoadScene("EndofGame");
+
+
     }
     public void Accepte()
     {

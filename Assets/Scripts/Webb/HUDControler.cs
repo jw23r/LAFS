@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class HUDControler : MonoBehaviour
@@ -20,7 +21,7 @@ public class HUDControler : MonoBehaviour
     public GameObject male;
     public GameObject female;
     public HighScore highscore;
-    int hourOfDay = 01;
+    int hourOfDay = 1;
     float time = 0;
 
     void Start()
@@ -31,6 +32,8 @@ public class HUDControler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if( hourOfDay >= 9) SceneManager.LoadScene("EndofGame");
+
         ChangeInventoryIcon();
         ChangeTime();
         UpdateText();

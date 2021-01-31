@@ -18,5 +18,5 @@ MonoBehaviour:
   _goodRespone: A wise decision. Keep my friend company, okay?
   _badRespone: You've made a grave mistake.
   _itemGameObject: {fileID: 11400000, guid: fe869b0e14f691e4dad9b1dca939f74b, type: 2}
-  instanceOfEnum: 0
+  instanceOfEnum: 1
   instanceOfMaleOrFemale: 1
