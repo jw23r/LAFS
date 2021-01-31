@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08dc1897c8def1d4ab3c4096ea94b860, type: 3}
   m_Name: New Item 1
   m_EditorClassIdentifier: 
-  _itemNameTextField: 
-  _itemPointValue: 0
+  _itemNameTextField: Book
+  _itemPointValue: 20
   _itemIcon: {fileID: 21300000, guid: 4d75c9df77d667945837e6a123db2032, type: 3}
-  _itemGameObject: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
-  _itemGameObjectMaterial: {fileID: 2100000, guid: f3f718f2af1d0d54ba084cb2266701ce,
+  _itemGameObject: {fileID: -5495902117074765545, guid: b4f740095bd08a94eab717b18373223b,
+    type: 3}
+  _itemGameObjectMaterial: {fileID: 2100000, guid: 385f9318306acef4683995a7760e7260,
     type: 2}
   instanceOfEnum: 1

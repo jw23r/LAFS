@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9ada839556b08f4786ff80489433be2, type: 3}
   m_Name: New Person
   m_EditorClassIdentifier: 
-  _personNameTextField: 
-  _itemDescription: 
-  _itemGameObject: {fileID: 11400000, guid: 84167b9dc409291489a0467f3d5b4982, type: 2}
+  _personNameTextField: Jeff
+  _itemDescription: Hey, I don't know what this golf club was doing here, thought
+    I should turn it in to you.
+  _goodRespone: Oh yeah, you're probably right. I'll just throw this out.
+  _badRespone: Really? Okay, here you go.
+  _itemGameObject: {fileID: 11400000, guid: 1739f02da27fbee4680ac83727a11bcb, type: 2}
   instanceOfEnum: 1
   instanceOfMaleOrFemale: 0

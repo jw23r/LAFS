@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08dc1897c8def1d4ab3c4096ea94b860, type: 3}
   m_Name: New Item 4
   m_EditorClassIdentifier: 
-  _itemNameTextField: 
-  _itemPointValue: 0
+  _itemNameTextField: Propeller Hat
+  _itemPointValue: 30
   _itemIcon: {fileID: 21300000, guid: eacff065a920f454db9ee7b1fc4c0cf5, type: 3}
-  _itemGameObject: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
-  _itemGameObjectMaterial: {fileID: 2100000, guid: f3f718f2af1d0d54ba084cb2266701ce,
-    type: 2}
+  _itemGameObject: {fileID: 6657998009922166292, guid: 41510438d4e8af548a2c27e68e59aa2c,
+    type: 3}
+  _itemGameObjectMaterial: {fileID: -876546973899608171, guid: 41510438d4e8af548a2c27e68e59aa2c,
+    type: 3}
   instanceOfEnum: 1
