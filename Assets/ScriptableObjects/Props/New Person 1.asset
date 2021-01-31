@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9ada839556b08f4786ff80489433be2, type: 3}
+  m_Name: New Person 1
+  m_EditorClassIdentifier: 
+  _personNameTextField: Miley
+  _itemDescription: Hey, I think I left my book here?
+  _goodRespone: Yeah, that's it! Thank you so much!
+  _badRespone: This isn't what I was looking for.
+  _itemGameObject: {fileID: 11400000, guid: 1c9585989a8ceab4c8c84faec21ed07f, type: 2}
+  instanceOfEnum: 0
+  instanceOfMaleOrFemale: 1
