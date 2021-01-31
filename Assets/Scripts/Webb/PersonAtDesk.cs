@@ -199,13 +199,13 @@ public class PersonAtDesk : MonoBehaviour
 
                 inventory.RemoveAt(1);
             }
-        }
         else
         {
             currentPoints -= personAtDesk[0].ItemGameObject.ItemPointValue;
             currentText = personAtDesk[0].BadRespone;
             ChangePersonAtDesk();
 
+        }
         }
     }
     public void GiveItem2()
@@ -221,13 +221,13 @@ public class PersonAtDesk : MonoBehaviour
 
                 inventory.RemoveAt(2);
             }
-        }
         else
         {
             currentPoints -= personAtDesk[0].ItemGameObject.ItemPointValue;
             currentText = personAtDesk[0].BadRespone;
             ChangePersonAtDesk();
 
+        }
         }
     }
     public void GiveItem3()
@@ -243,13 +243,13 @@ public class PersonAtDesk : MonoBehaviour
 
                 inventory.RemoveAt(3);
             }
-        }
         else
         {
             currentPoints -= personAtDesk[0].ItemGameObject.ItemPointValue;
             currentText = personAtDesk[0].BadRespone;
             ChangePersonAtDesk();
 
+        }
         }
     }
     public void GiveItem4()
@@ -265,13 +265,13 @@ public class PersonAtDesk : MonoBehaviour
 
                 inventory.RemoveAt(4);
             }
-        }
         else
         {
             currentPoints -= personAtDesk[0].ItemGameObject.ItemPointValue;
             currentText = personAtDesk[0].BadRespone;
             ChangePersonAtDesk();
 
+        }
         }
     }
     public void GiveItem5()
@@ -287,13 +287,13 @@ public class PersonAtDesk : MonoBehaviour
 
                 inventory.RemoveAt(5);
             }
-        }
         else
         {
             currentPoints -= personAtDesk[0].ItemGameObject.ItemPointValue;
             currentText = personAtDesk[0].BadRespone;
             ChangePersonAtDesk();
 
+        }
         }
     }
     void ChangePersonAtDesk()
