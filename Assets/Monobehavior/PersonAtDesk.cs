@@ -20,7 +20,7 @@ public class PersonAtDesk : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        currentPoints = 0;
         personAtDesk = new List<Person>();
         inventory = new List<Item>();
 
