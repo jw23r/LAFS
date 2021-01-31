@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9ada839556b08f4786ff80489433be2, type: 3}
-  m_Name: New Person 3
+  m_Name: New Person 10
   m_EditorClassIdentifier: 
-  _personNameTextField: 
-  _itemDescription: 
-  _goodRespone: 
-  _badRespone: 
-  _itemGameObject: {fileID: 0}
+  _personNameTextField: ???
+  _itemDescription: Hey, do you got a bent up golf club in there?
+  _goodRespone: That's it, yeah! That's my trusty three wood!
+  _badRespone: ' Someone probably threw it away, I''ll just buy a new one!'
+  _itemGameObject: {fileID: 11400000, guid: 1739f02da27fbee4680ac83727a11bcb, type: 2}
   instanceOfEnum: 0
   instanceOfMaleOrFemale: 0

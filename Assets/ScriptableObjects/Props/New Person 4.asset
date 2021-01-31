@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9ada839556b08f4786ff80489433be2, type: 3}
   m_Name: New Person 4
   m_EditorClassIdentifier: 
-  _personNameTextField: 
-  _itemDescription: 
-  _goodRespone: 
-  _badRespone: 
-  _itemGameObject: {fileID: 0}
+  _personNameTextField: Gandalf
+  _itemDescription: Pardon me, but I had heard in your daily patrol you picked up
+    my ring? You didn't put the ring on your hand, did you?
+  _goodRespone: My PRECIOUS ring!
+  _badRespone: This isn't the ring! Fine. I will continue my search! But I feel you're
+    hiding something from me.
+  _itemGameObject: {fileID: 11400000, guid: ad5e3e9314d6a1f4cbe0304328f7107e, type: 2}
   instanceOfEnum: 0
   instanceOfMaleOrFemale: 0

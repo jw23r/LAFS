@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _itemNameTextField: Fortune Cat
   _itemPointValue: 120
-  _itemIcon: {fileID: 0}
+  _itemIcon: {fileID: 21300000, guid: d5dd57ccd84492945a50600a41d4ba09, type: 3}
   _itemGameObject: {fileID: -2432090755550338912, guid: 8923769a6f7ebf041a7faedfe6dc596d,
     type: 3}
   _itemGameObjectMaterial: {fileID: 2100000, guid: 8a4ecd984a162f54eae7db889cb935cc,

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _itemNameTextField: Propeller Hat
   _itemPointValue: 30
-  _itemIcon: {fileID: 21300000, guid: eacff065a920f454db9ee7b1fc4c0cf5, type: 3}
+  _itemIcon: {fileID: 21300000, guid: 6e187dadd626d8040b6c544633058b5f, type: 3}
   _itemGameObject: {fileID: 6657998009922166292, guid: 41510438d4e8af548a2c27e68e59aa2c,
     type: 3}
   _itemGameObjectMaterial: {fileID: -876546973899608171, guid: 41510438d4e8af548a2c27e68e59aa2c,

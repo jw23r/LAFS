@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _itemNameTextField: Bent Golf Club
   _itemPointValue: 70
-  _itemIcon: {fileID: 21300000, guid: eacff065a920f454db9ee7b1fc4c0cf5, type: 3}
+  _itemIcon: {fileID: 21300000, guid: e7bf9aac296f949458cce2d24105e314, type: 3}
   _itemGameObject: {fileID: 2534964839176971238, guid: 502829c29b0750b4ead9eb5e3b550f62,
     type: 3}
   _itemGameObjectMaterial: {fileID: 2100000, guid: 15ac23c280b5aff4a816acb1a3fd9a09,
     type: 2}
-  instanceOfEnum: 2
+  instanceOfEnum: 0

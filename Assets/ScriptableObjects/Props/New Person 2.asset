@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9ada839556b08f4786ff80489433be2, type: 3}
   m_Name: New Person 2
   m_EditorClassIdentifier: 
-  _personNameTextField: 
-  _itemDescription: 
-  _goodRespone: 
-  _badRespone: 
-  _itemGameObject: {fileID: 0}
+  _personNameTextField: Richard
+  _itemDescription: Oh, how embarrassing, I lost my car keys! Did someone turn them
+    in for me?
+  _goodRespone: Ohhh thank you thank you thank you thank you thank you! You don't
+    know how worried I've been looking for my keys!
+  _badRespone: What!? These aren't my keys! Bah fooey! I'll get myself a new set
+    of keys!
+  _itemGameObject: {fileID: 11400000, guid: e863c08cd2c1e2743985f7724011f87c, type: 2}
   instanceOfEnum: 0
   instanceOfMaleOrFemale: 0

@@ -10,12 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9ada839556b08f4786ff80489433be2, type: 3}
-  m_Name: New Person 5
+  m_Name: New Person 7
   m_EditorClassIdentifier: 
-  _personNameTextField: 
-  _itemDescription: 
-  _goodRespone: 
-  _badRespone: 
-  _itemGameObject: {fileID: 0}
+  _personNameTextField: Sayu
+  _itemDescription: Oh, my! A malevolent force surrounds you! You best be careful.
+    Here! Have a good luck charm.
+  _goodRespone: A wise decision. Keep my friend company, okay?
+  _badRespone: You've made a grave mistake.
+  _itemGameObject: {fileID: 11400000, guid: fe869b0e14f691e4dad9b1dca939f74b, type: 2}
   instanceOfEnum: 0
-  instanceOfMaleOrFemale: 0
+  instanceOfMaleOrFemale: 1

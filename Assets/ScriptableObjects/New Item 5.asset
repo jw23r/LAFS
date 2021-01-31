@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _itemNameTextField: Ring
   _itemPointValue: 80
-  _itemIcon: {fileID: 0}
+  _itemIcon: {fileID: 21300000, guid: 639b5eed06314a546b6cde0432241702, type: 3}
   _itemGameObject: {fileID: 6492773825138465872, guid: 59b6311fe0e42214483f5e74e764f64c,
     type: 3}
   _itemGameObjectMaterial: {fileID: 0}
