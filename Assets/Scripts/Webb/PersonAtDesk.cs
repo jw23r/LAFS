@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class PersonAtDesk : MonoBehaviour
 {
-    public static int currentPoints = 100;
+    public static int currentPoints = 0;
   public List<Person> people;
   
     public GameObject itemAtDesklocation;
@@ -47,7 +47,7 @@ public class PersonAtDesk : MonoBehaviour
             {
                 if (inventory.Count < 6)
                 {
-                    if (personAtDesk[0].ItemGameObject.instanceOfEnum.ToString() == "Accept")
+                    if (personAtDesk[0].ItemGameObject.instanceOfEnum.ToString() == "Accept" )
                     {
                         print("you took the item");
                         currentPoints += personAtDesk[0].ItemGameObject.ItemPointValue;
@@ -59,7 +59,8 @@ public class PersonAtDesk : MonoBehaviour
                     }
                     else
                     {
-                        print("bad item");
+                        inventory.Add(personAtDesk[0].ItemGameObject);
+                     
                         currentPoints -= personAtDesk[0].ItemGameObject.ItemPointValue;
                         ChangePersonAtDesk();
                     }
@@ -114,29 +115,30 @@ public class PersonAtDesk : MonoBehaviour
     }
     public void GiveItem0()
     {
-        
+
 
         if (personAtDesk[0].instanceOfEnum.ToString() == "Looking")
         {
             if (inventory.Count < 1) return;
 
+            print("got here");
 
             if (inventory[0] == personAtDesk[0].ItemGameObject)
             {
                 currentText = personAtDesk[0].GoodRespone;
                 currentPoints += personAtDesk[0].ItemGameObject.ItemPointValue;
-              
+
                 ChangePersonAtDesk();
 
                 inventory.RemoveAt(0);
             }
-        }
-        else
-        {
-            currentPoints -= personAtDesk[0].ItemGameObject.ItemPointValue;
+            else
+            {
+                currentPoints -= personAtDesk[0].ItemGameObject.ItemPointValue;
                 currentText = personAtDesk[0].BadRespone;
-            ChangePersonAtDesk();
+                ChangePersonAtDesk();
 
+            }
         }
     }
     public void GiveItem1()
@@ -172,7 +174,7 @@ public class PersonAtDesk : MonoBehaviour
         {
             if (inventory.Count < 3) return;
 
-            print("got here");
+         
 
             if (inventory[2] == personAtDesk[0].ItemGameObject)
             {
@@ -183,13 +185,13 @@ public class PersonAtDesk : MonoBehaviour
 
                 inventory.RemoveAt(2);
             }
-        else
-        {
-            currentPoints -= personAtDesk[0].ItemGameObject.ItemPointValue;
-            currentText = personAtDesk[0].BadRespone;
-            ChangePersonAtDesk();
+            else
+            {
+                currentPoints -= personAtDesk[0].ItemGameObject.ItemPointValue;
+                currentText = personAtDesk[0].BadRespone;
+                ChangePersonAtDesk();
 
-        }
+            }
         }
     }
     public void GiveItem3()
@@ -209,13 +211,13 @@ public class PersonAtDesk : MonoBehaviour
 
                 inventory.RemoveAt(3);
             }
-        else
-        {
-            currentPoints -= personAtDesk[0].ItemGameObject.ItemPointValue;
-            currentText = personAtDesk[0].BadRespone;
-            ChangePersonAtDesk();
+            else
+            {
+                currentPoints -= personAtDesk[0].ItemGameObject.ItemPointValue;
+                currentText = personAtDesk[0].BadRespone;
+                ChangePersonAtDesk();
 
-        }
+            }
         }
     }
     public void GiveItem4()
@@ -235,20 +237,21 @@ public class PersonAtDesk : MonoBehaviour
 
                 inventory.RemoveAt(4);
             }
-        else
-        {
-            currentPoints -= personAtDesk[0].ItemGameObject.ItemPointValue;
-            currentText = personAtDesk[0].BadRespone;
-            ChangePersonAtDesk();
+            else
+            {
+                currentPoints -= personAtDesk[0].ItemGameObject.ItemPointValue;
+                currentText = personAtDesk[0].BadRespone;
+                ChangePersonAtDesk();
 
-        }
+            }
         }
     }
     public void GiveItem5()
     {
         if (personAtDesk[0].instanceOfEnum.ToString() == "Looking")
         {
-            if (inventory.Count <6) return;
+            if (inventory.Count < 6) return;
+
             print("got here");
 
             if (inventory[5] == personAtDesk[0].ItemGameObject)
@@ -260,13 +263,13 @@ public class PersonAtDesk : MonoBehaviour
 
                 inventory.RemoveAt(5);
             }
-        else
-        {
-            currentPoints -= personAtDesk[0].ItemGameObject.ItemPointValue;
-            currentText = personAtDesk[0].BadRespone;
-            ChangePersonAtDesk();
+            else
+            {
+                currentPoints -= personAtDesk[0].ItemGameObject.ItemPointValue;
+                currentText = personAtDesk[0].BadRespone;
+                ChangePersonAtDesk();
 
-        }
+            }
         }
     }
     void ChangePersonAtDesk()
