@@ -15,7 +15,8 @@ MonoBehaviour:
   _itemNameTextField: Ring
   _itemPointValue: 80
   _itemIcon: {fileID: 21300000, guid: 639b5eed06314a546b6cde0432241702, type: 3}
-  _itemGameObject: {fileID: 6492773825138465872, guid: 59b6311fe0e42214483f5e74e764f64c,
+  _itemGameObject: {fileID: -7047016320417709333, guid: caa263118d9866545a99f42b330e429c,
     type: 3}
-  _itemGameObjectMaterial: {fileID: 0}
+  _itemGameObjectMaterial: {fileID: 2100000, guid: 4f0c2263e0cd9b444af6c60c9a1ee5ea,
+    type: 2}
   instanceOfEnum: 1

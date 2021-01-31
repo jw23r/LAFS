@@ -15,7 +15,7 @@ MonoBehaviour:
   _itemNameTextField: Keys
   _itemPointValue: 100
   _itemIcon: {fileID: 21300000, guid: e82eb30cda046304986e876ca52c8f57, type: 3}
-  _itemGameObject: {fileID: 7371999755757047163, guid: ff92d3afc8bea2c4294d897548bced90,
+  _itemGameObject: {fileID: 7371999755757047163, guid: 74aa96252241eb546bc2fe0d64934ffa,
     type: 3}
   _itemGameObjectMaterial: {fileID: 2100000, guid: f01f5e6c973f12348a1ffe4d3d101bef,
     type: 2}

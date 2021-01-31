@@ -15,7 +15,7 @@ MonoBehaviour:
   _itemNameTextField: Book
   _itemPointValue: 20
   _itemIcon: {fileID: 21300000, guid: 2c2ed249c185942419c282bc3cdecf9e, type: 3}
-  _itemGameObject: {fileID: -5495902117074765545, guid: b4f740095bd08a94eab717b18373223b,
+  _itemGameObject: {fileID: -5495902117074765545, guid: 459f3b5a1df9a26409187dda423759e4,
     type: 3}
   _itemGameObjectMaterial: {fileID: 2100000, guid: 385f9318306acef4683995a7760e7260,
     type: 2}
