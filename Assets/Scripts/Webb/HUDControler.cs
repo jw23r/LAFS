@@ -17,7 +17,11 @@ public class HUDControler : MonoBehaviour
     public Text previousTextOnScreen;
     public Text score;
     public Text timeOfDay;
-    int hourOfDay = 01; 
+    public GameObject male;
+    public GameObject female;
+    public HighScore highscore;
+    int hourOfDay = 01;
+    float time = 0;
 
     void Start()
     {
@@ -29,6 +33,23 @@ public class HUDControler : MonoBehaviour
     {
         ChangeInventoryIcon();
         ChangeTime();
+        UpdateText();
+        if (PersonAtDesk.personAtDesk[0].instanceOfMaleOrFemale.ToString() == "Male")
+        {
+            male.SetActive(true);
+        }
+        else
+        {
+            male.SetActive(false);
+        }
+        if (PersonAtDesk.personAtDesk[0].instanceOfMaleOrFemale.ToString() == "Female")
+        {
+            female.SetActive(true);
+        }
+        else
+        {
+            female.SetActive(false);
+        }
     }
     void ChangeInventoryIcon() 
     { 
@@ -93,15 +114,18 @@ public class HUDControler : MonoBehaviour
         previousTextOnScreen.text = PersonAtDesk.previousText;
         score.text = PersonAtDesk.currentPoints.ToString();
         timeOfDay.text = "0" + hourOfDay.ToString() + ":00";
+        if (highscore.highScore < PersonAtDesk.currentPoints) highscore.highScore = PersonAtDesk.currentPoints;
+        highscore.currentScore = PersonAtDesk.currentPoints;
     }
     void ChangeTime()
     {
-        float x = 0;
-        x += Time.deltaTime;
-        if(x == 120)
+        
+        time += Time.deltaTime;
+       print(time);
+        if(time >= 120)
         {
             hourOfDay += 1;
-            x = 0;
+            time = 0;
         }
     }
 }

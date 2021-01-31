@@ -18,4 +18,4 @@ MonoBehaviour:
   _itemGameObject: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   _itemGameObjectMaterial: {fileID: 2100000, guid: f3f718f2af1d0d54ba084cb2266701ce,
     type: 2}
-  instanceOfEnum: 1
+  instanceOfEnum: 2

@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: New Person
   m_EditorClassIdentifier: 
   _personNameTextField: 
-  _itemDescription: 
+  _itemDescription: sdsadasdasd
+  _goodRespone: 
+  _badRespone: 
   _itemGameObject: {fileID: 11400000, guid: 84167b9dc409291489a0467f3d5b4982, type: 2}
-  instanceOfEnum: 1
+  instanceOfEnum: 0
   instanceOfMaleOrFemale: 0
